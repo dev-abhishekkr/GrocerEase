@@ -3,12 +3,12 @@ import React from "react";
 const LandingPage = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-16 pt-20 pb-32 bg-gray-200">
-        <div className="w-full text-center">
-          <input
-            className="bg-white w-1/2 px-7 py-5 rounded-full text-xl focus:outline-none focus:bg-gray-50"
-            type="text"
-            placeholder="Search veggies, ice-creams and more"
+      <div className="flex flex-col items-center">
+        <div>
+          <img
+            className="h-44"
+            src="https://miro.medium.com/v2/resize:fit:512/1*KoExa8scmI7xLl669dHNBQ.jpeg"
+            alt="Landing-img"
           />
         </div>
         <div className="flex flex-col gap-5 items-center px-5">
